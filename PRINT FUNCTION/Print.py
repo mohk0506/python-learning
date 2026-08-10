@@ -25,3 +25,15 @@ sep → controls what comes between values.
 end → controls what comes at the end of the statement.
 '''
 
+'''
+Python print() Function
+
+Key Takeaways
+
+- `sep` controls the separator between values.
+- `end` controls what is printed at the end.
+- `input()` returns a string by default.
+- `int()` converts a string into an integer.
+- `f"..."` allows variables to be inserted using `{}`.
+
+'''

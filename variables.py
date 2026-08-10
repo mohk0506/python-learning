@@ -45,3 +45,15 @@ print(type(is_completed))
 # Tuples: Ordered, immutable collections (e.g., (1, 2, 3) ).
 # Sets: Unordered collections of unique elements (e.g., {1, 2, 3} ).
 # Dictionaries: Key-value pairs (e.g., {"name": "Alice", "age":25} ).
+
+'''
+Integer = numbers
+Floats = decimal number
+String = "English"
+Booleans = True Fals
+List = Mutable , Countable []
+Tuples = Immutable , not countable () Fix.
+Sets = {} Q = {2 2 3 3} Op = {2 3}
+Dictionaries = Key-value pairs EX; Name:"MD"
+                                   Age :22
+'''

@@ -1,0 +1,10 @@
+REPL means Read–Eval–Print Loop.
+
+It is an interactive Python environment where you can type Python code one line at a time and immediately see the result.
+We can do this in terminal by typing python comand.
+
+What each letter means
+R — Read → Python reads what you type.
+E — Eval → Python evaluates/runs it.
+P — Print → Python shows the result.
+L — Loop → It waits for your next command.

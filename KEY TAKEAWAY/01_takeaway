@@ -1,0 +1,206 @@
+# Python is called a dynamically typed language because you don't have to declare the data type of a variable when you create it.
+# Python determines the type at runtime.
+
+# what other languages are dynamically typed vs statically typed, here is the simple comparison:
+
+# Language       | Typing            | Example           |
+# -------------- | ----------------- | ----------------- |
+# **Python**     | Dynamically typed | `x = 10`          |
+# **JavaScript** | Dynamically typed | `x = 10`          |
+# **Ruby**       | Dynamically typed | `x = 10`          |
+# **PHP**        | Dynamically typed | `$x = 10`         |
+# **Java**       | Statically typed  | `int x = 10`      |
+# **C**          | Statically typed  | `int x = 10`      |
+# **C++**        | Statically typed  | `int x = 10`      |
+# **C#**         | Statically typed  | `int x = 10`      |
+# **Go**         | Statically typed  | `var x int = 10`  |
+# **Rust**       | Statically typed  | `let x: i32 = 10` |
+
+The benefit of dynamic typing in Python** is mainly flexibility and faster development.
+
+### Simple example
+
+In Python:
+x = 10
+
+Later:
+x = "Hello"
+
+You don't need to declare a new type or change a declaration.
+
+### Why is that useful?
+
+Imagine you're writing a program that gets different kinds of data.
+
+python data = 100
+
+Later the program receives text:
+
+python data = "Nifty"
+
+Python lets the same variable name hold different types.
+
+### Main benefits
+
+1. Less code
+
+You don't have to write:
+
+python
+int x = 10
+
+You simply write:
+
+python
+x = 10
+
+2. Faster development.
+
+You can focus on the logic instead of declaring types everywhere.
+
+3. Flexible data handling.
+
+Python is very convenient when working with:
+
+* APIs
+* JSON
+* web data
+* automation
+* data analysis
+* cybersecurity tools
+
+For example, an API might give you:
+
+python
+data = 100
+
+and another response might give you:
+
+python
+data = "unknown"
+
+Python can handle both without requiring a fixed declaration.
+
+### But there is a trade-off
+
+Dynamic typing is not always better.
+
+Because Python allows:
+
+python
+x = 10
+x = "Hello"
+
+you can accidentally create bugs if you expect `x` to always be a number.
+
+For example:
+
+python
+x = 10
+x = "Hello"
+print(x + 5)
+
+This produces an error because Python cannot add text and a number.
+
+### So remember
+
+Dynamic typing makes Python flexible and quick to write, but you must be careful about what type your variables contain.**
+
+**Key Takeaway:
+
+Python's dynamic typing reduces boilerplate and makes programs flexible, but the programmer must pay attention to data types to avoid runtime errors.
+
+
+OR-----------------OR------------------OR-----------------OR----------
+
+
+The important point is that in C, the type is fixed when you declare the variable**, not because you used `x = 10` only once.
+
+### C example
+
+You write:
+c
+int x = 10;
+
+Here, `int` is the important part.
+
+It means:
+
+> `x` is an integer variable.
+
+You can change its value:
+
+c
+x = 20;
+x = 100;
+
+That's completely fine.
+
+But you cannot put a string into it:
+
+c
+x = "Hello";   // ❌
+
+because `x` was declared as an `int`.
+
+### Think of it as a box
+
+In C:
+
+text
+int x = 10;
+
+means:
+
+text
+x = [ NUMBER BOX ]
+
+You can change what's inside:
+
+text
+x = [10]
+x = [20]
+x = [500]
+
+But you can't change the box into a text box.
+
+### Python is different
+
+Python:
+python
+x = 10
+x = "Hello"
+x = 10.5
+
+Python allows the name `x` to refer to different types of objects.
+
+text
+x → 10       (int)
+x → "Hello"  (str)
+x → 10.5     (float)
+
+### So the key difference
+
+**C:**
+
+c
+int x = 10;
+x = 20;       // ✅
+x = "Hello";  // ❌
+
+**Python:**
+
+python
+x = 10        # ✅
+x = 20        # ✅
+x = "Hello"   # ✅
+x = 10.5      # ✅
+
+So **C doesn't fix the value `10`; it fixes the type `int`.**
+
+That's the key idea.
+
+
+
+
+
