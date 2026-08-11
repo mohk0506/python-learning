@@ -1,22 +1,3 @@
-
-a = input("enter a number")
-print(a)
-
-b = input("enter your name:")
-print(b)
-
-## ADDING TWO NUMBERS
-
-a = input("enter first number")
-a = int(a)
-print(a + 3)
-
-a = input("enter first number")
-a = int(a)
-b = input("enter second number")
-b = int(b)
-print (a + b)
-
 # other way to convert in to int 
 
 a = int(input("enter first number"))
@@ -29,14 +10,9 @@ age = int(input("enter your age:"))
 print(f"hello {name}, you are {age} years old.")
 
 
+# `f"..."` allows variables to be inserted using `{}`.
 
-
-
-
-
-
-
-
+# `input()` returns a string by default.
 
 # a = input(a) convert int version of a
 
