@@ -33,4 +33,3 @@ if(age>18):
     print("Thank you ")
 
 print("End of program")
-

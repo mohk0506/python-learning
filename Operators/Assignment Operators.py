@@ -19,7 +19,7 @@ print(x) # Output: 15
 -=
 *=
 /=
-%=
-**=
-//=
+%=. will perfom modulo(remainder) operation 
+**= exponentiates and assigns 
+//= floor divides and assigns
 '''

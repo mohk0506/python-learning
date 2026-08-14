@@ -39,3 +39,15 @@ d = 223
 e = str(d)
 print(e)
 print(type(e))
+
+'''
+What is Typecasting?
+
+Typecasting is the process of converting one data type to another.
+Python provides built-in functions for typecasting:
+
+int() : Converts to integer.
+float() : Converts to float.
+str() : Converts to string.
+bool() : Converts to boolean.
+'''
