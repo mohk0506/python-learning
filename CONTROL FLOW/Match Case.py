@@ -22,3 +22,8 @@ match value:
         # Default case (if no patterns match)
 '''
 
+# What is Match-Case?
+
+# Match-case is a new feature introduced in Python 3.10 for pattern matching.
+
+# It simplifies complex conditional logic.
