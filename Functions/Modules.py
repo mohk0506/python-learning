@@ -12,3 +12,10 @@ print(math.sqrt(16))
 mymodule.hello()
 r = requests.get("https://www.google.com")
 print(r.text)
+
+
+
+def hello():
+    print("Hello world")
+
+    
